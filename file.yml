@@ -5,7 +5,5 @@
   - name: create file
     file:
       path: /var/lib/jenkins/devops.tmp
-      owner: root
-      group: root
       mode: 0755
       state: touch
