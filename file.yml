@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  name: create file
+  tasks:
+  - name: create file
+    file:
+      path: /root/devops.tmp
+      owner: root
+      group: root
+      mode: 0755
