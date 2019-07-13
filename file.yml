@@ -4,7 +4,7 @@
   tasks:
   - name: create file
     file:
-      path: /root/devops.tmp
+      path: /var/lib/jenkins/devops.tmp
       owner: root
       group: root
       mode: 0755
